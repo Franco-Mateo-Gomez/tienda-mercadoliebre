@@ -1,0 +1,50 @@
+@import url('general-styles.css');
+
+/*STYLES --> MAIN*/
+
+.main-login-section{
+    width: 90vw;
+    margin: auto;
+}
+
+/*STYLES --> FORM*/
+.form-login{
+    margin-top: 3vh;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.form-login input{
+    margin: 10px;
+    padding: 10px;
+    width: 75vw;
+    border: solid 1px white;
+    border-radius: 8px;
+    color: #666;
+    font-size: 15px;
+}
+
+.form-login button{
+    width: 75vw;
+    margin-top: 2%;
+    padding: 8px;
+    border: solid 1px #1259c3;
+    border-radius: 8px;
+    background-color: #1259c3;
+    color: #ebebeb;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+/*(END) STYLES --> FORM*/
+/*(END) STYLES --> MAIN*/
+
+/*STYLES --> TRANSITIONS */
+.form-login button:hover{
+    background-color: #0022AA;
+}
+

@@ -1,0 +1,83 @@
+@import url('general-styles.css');
+
+/*STYLES --> MAIN*/
+
+.main-register-section{
+    width: 90vw;
+    margin: auto;
+}
+
+/*STYLES --> FORM*/
+
+.form-register{
+    margin-top: 3vh;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-register h3 {
+    align-self: flex-start;
+    position: relative;
+    left: 5.5%;
+}
+
+.form-register input[type="text"],input[type="password"],input[type="date"],input[type="email"],input[type="file"]{
+    margin: 10px;
+    padding: 6px;
+    width: 80vw;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 8px;
+    color: #666;
+    font-size: 15px;
+}
+
+/*Profile Type*/
+.profile-type{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-type div{
+    margin: 30px;
+}
+
+.profile-type div input{
+    margin-right: 10px;
+}
+
+/*interests*/
+.interests{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    position: relative;
+    left: 5%;
+}
+
+.interests div{
+    padding-right: 90px;
+    margin: 25px;
+}
+
+/*Buttons*/
+.register-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-register .register-buttons button{
+    padding: 10px;
+    margin: 15px;
+    border: solid 1px #1259c3;
+    border-radius: 15px;
+    background-color: #1259c3;
+    color: #ebebeb;
+    font-size: 14px;
+}
+
+/*(END) STYLES --> FORM*/
+/*(END) STYLES --> MAIN*/

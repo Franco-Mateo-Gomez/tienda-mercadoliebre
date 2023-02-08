@@ -1,0 +1,89 @@
+@import url('general-styles.css');
+
+/*STYLES --> MAIN*/
+.main-section{
+    width: 90vw;
+    margin: auto;
+}
+
+.section-productos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos{
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.productos-datos{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    background-color:white;
+    position: relative;
+}
+
+.productos-precios-descuentos{
+    display: flex;
+}
+
+.productos-precios-descuentos .precios{
+    width: 30%;
+}
+.productos-precios-descuentos .descuentos{
+    width:70%;
+    margin-left: 10%;
+}
+
+.fa-truck{
+    color: #39b54a;
+}
+
+/*--------------------------------------------------*/
+
+/*(END) STYLES --> MAIN*/
+
+/*--------------------------------------------------*/
+
+/*STYLES --> TRANSITIONS */
+
+.productos:hover .descripciones{
+    opacity:100%;
+}
+
+.productos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+.icons-footer:hover{
+    color: #1C819E;
+}
+
+/*(END) STYLES --> TRANSITIONS*/
+
+
+/*STYLES --> MEDIA QUERIES */
+
+/* - MEDIA QUERIES -> TABLET*/
+@media (min-width:361px){
+
+    .productos{
+        width: 45vh;
+    }
+    .section-productos{
+        flex-direction: row;
+    }
+}
+
+/* - MEDIA QUERIES -> DESKTOP*/
+@media (min-width:769px){
+    .section-productos{
+        flex-wrap: nowrap;
+    }
+}
