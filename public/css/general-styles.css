@@ -170,6 +170,7 @@ p{
 /*STYLES --> FOOTER*/
 
 .main-footer{
+    color: #666;
     margin-top: 2%;
     padding-top: 2%;
     background-color: #FFF;
@@ -178,7 +179,7 @@ p{
 
 .articulo-footer{
     text-align: center;
-    margin: 5%;
+    margin: 3%;
 }
 
 .icons-footer{
@@ -192,7 +193,7 @@ p{
 
 
 /* - MEDIA QUERIES -> TABLET*/
-@media (min-width:361px){
+@media (min-width:768px){
 
     .nav-bar{
     display: flex;
